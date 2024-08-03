@@ -35,7 +35,7 @@ def download_images(topic, num_images, api_key):
 # Example usage
 topic = "houses in the woods"
 num_images = 5
-api_key = "672e8e31cba34268872c1008c1ebae4b"  # Replace with your Bing API key
+api_key = ""  # Replace with your Bing API key
 downloaded_images = download_images(topic, num_images, api_key)
 print(f"Downloaded {len(downloaded_images)} images for the topic '{topic}'")
 for image in downloaded_images:
